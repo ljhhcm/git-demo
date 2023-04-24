@@ -1,0 +1,25 @@
+初始化仓库
+git init
+
+未跟踪-->暂存
+git add 文件名
+git add *  将所有已修改（未跟踪）的文件暂存
+
+暂存-->未修改（提交到仓库）
+git commit -m “”
+
+提交所有已修改的文件（不用再暂存）
+git commit -a -m ""
+
+删除文件
+git rm 文件名
+强制删除
+git rm 文件名 -f
+
+重置文件
+git restore 文件名
+取消暂存状态
+git restore --staged 文件名
+
+重命名文件
+git mv from to 
